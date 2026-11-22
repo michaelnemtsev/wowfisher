@@ -15,7 +15,10 @@ Use windowed or borderless windowed mode for the game. Open `WowFisher.exe` from
 dotnet run --project .\WowFisher.csproj
 ```
 
-Keep the game in front. Open the **WowFisher** system tray menu, choose **Select bobber area…**, and drag a tight rectangle around the resting bobber with a little water on all sides. Put the bobber near the center. Return focus to the game and click **Start Fishing** when you’re ready for the first cast.
+1. Launch WowFisher with ForeverFisher enabled in World of Warcraft. Cast once in the game so the bobber is visible.
+2. With the game in front, find the **WowFisher** icon in the Windows system tray. If the icon is hidden, click the up arrow next to the clock.
+3. Right-click the **WowFisher** icon and choose **Select bobber area…**. Drag a tight rectangle around the resting bobber, keeping it near the center with a little water on all sides.
+4. Return focus to the game and click **Start Fishing** in the WowFisher overlay.
 
 **Start Fishing** presses `/` to cast. Once the bobber settles, WowFisher watches for the bite, presses `/` to reel it in, then waits two seconds before pressing `/` to cast again. The cycle repeats until you click **Stop Fishing**, which also cancels a pending cast. Monitoring and key presses pause while the game is out of focus. If the bobber lands outside the rectangle or the game window changes size, select the area again.
 
